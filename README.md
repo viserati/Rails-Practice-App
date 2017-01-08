@@ -3,23 +3,22 @@ Learning Rails
 
 Learning rails with a tutorial from the RailsApps project.
 
-export GMAIL_USERNAME="keith.turner.2.0@gmail.com"
-export GMAIL_PASSWORD='"Ach13v3_00"'
-export MAILCHIMP_API_KEY="026537a57c2875eb9eb37b4c78596065-us12"
-export MAILCHIMP_LIST_ID="208dde1358"
-export OWNER_EMAIL="keith.turner.2.0@gmail.com"
+export GMAIL_USERNAME=
+export GMAIL_PASSWORD=
+export MAILCHIMP_API_KEY=
+export MAILCHIMP_LIST_ID=
+export OWNER_EMAIL=
 
 
 --------------------------------------
 
 
-development:
-  email_provider_username: <%= ENV[keith.turner.2.0@gmail.com] %>
-  email_provider_password: <%= ENV[Ach13v3_00_xxx] %>
+development: 
+  email_provider_password: 
   domain_name: example.com
-  mailchimp_api_key: <%= ENV[026537a57c2875eb9eb37b4c78596065-us12] %>
-  mailchimp_list_id: <%= ENV[208dde1358] %>
-  owner_email: <%= ENV[keith.turner.2.0@gmail.com] %>
+  mailchimp_api_key: 
+  mailchimp_list_id: 
+  owner_email: 
   secret_key_base: very_long_random_string
 
 test:
@@ -28,11 +27,11 @@ test:
 # Do not keep production secrets in the repository,
 # instead read values from the environment.
 production:
-  email_provider_username: <%= ENV[keith.turner.2.0@gmail.com] %>
-  email_provider_password: <%= ENV[Ach13v3_00_xxx] %>
-  domain_name: <%= ENV["DOMAIN_NAME"] %>
-  mailchimp_api_key: <%= ENV[026537a57c2875eb9eb37b4c78596065-us12] %> 
-  mailchimp_list_id: <%= ENV[208dde1358] %> 
-  owner_email: <%= ENV[keith.turner.2.0@gmail.com] %>
-  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
+  email_provider_username:
+  email_provider_password: 
+  domain_name:
+  mailchimp_api_key:
+  mailchimp_list_id:
+  owner_email:
+  secret_key_base:
   
