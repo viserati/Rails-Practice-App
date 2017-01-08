@@ -1,7 +1,7 @@
 Learning Rails
 ==
 
-Learning rails with a tutorial from the RailsApps project.
+Rails practice project.
 
 export GMAIL_USERNAME=
 export GMAIL_PASSWORD=
